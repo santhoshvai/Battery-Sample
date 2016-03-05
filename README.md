@@ -9,3 +9,6 @@
   * `jobScheduler API` makes the systen defer your wakelock task at appropriate situations with collectively other wakelocks
     *  `jobInfo` object and `service` needs to be created.
     * see the [DevBytes video](https://www.youtube.com/watch?v=QdINLG5QrJc&feature=youtu.be)
+
+* Minimise cellularRadio usage || wait for WiFi
+  * use `jobScheduler API` to defer tasks to only when WiFi is connected.
